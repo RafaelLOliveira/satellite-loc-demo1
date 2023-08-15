@@ -10,7 +10,7 @@ variable "ibmcloud_api_key" {
 
 variable "region" {
   type        = string
-  default     = "us-south"
+  default     = "br-sao"
   description = "Check the Region you want to deploy your vpc"
 }
 
