@@ -17,7 +17,7 @@ locals {
 resource "ibm_is_instance" "vsi1" {
 
   count          = var.vsi_number
-  name           = "vsi-subnet1-00${count.index}"
+  name           = "vsi-subnet01-00${count.index}"
   vpc            = ibm_is_vpc.vpc-instance.id
   keys           = [data.ibm_is_ssh_key.ssh_key.id]
   zone           = local.ZONE1
@@ -37,7 +37,7 @@ resource "ibm_is_instance" "vsi2" {
 
   count = var.vsi_number
 
-  name           = "vsi-subnet2-00${count.index}"
+  name           = "vsi-subnet02-00${count.index}"
   vpc            = ibm_is_vpc.vpc-instance.id
   keys           = [data.ibm_is_ssh_key.ssh_key.id]
   zone           = local.ZONE2
@@ -57,7 +57,7 @@ resource "ibm_is_instance" "vsi3" {
 
   count = var.vsi_number
 
-  name           = "vsi-subnet3-00${count.index}"
+  name           = "vsi-subnet03-00${count.index}"
   vpc            = ibm_is_vpc.vpc-instance.id
   keys           = [data.ibm_is_ssh_key.ssh_key.id]
   zone           = local.ZONE3
