@@ -16,13 +16,13 @@ variable "region" {
 
 variable "vpc_name" {
   type        = string
-  default     = "vpc-demo-satellite"
+  default     = "vpc-demo"
   description = "Name for VPC"
 }
 
 variable "rocks_name" {
   type        = string
-  default     = "rocks-demo-satellite"
+  default     = "rocks-demo"
   description = "Name of ROCKS Cluster"
 }
 
@@ -31,7 +31,7 @@ variable "rocks_name" {
 
 variable "res_group" {
   type        = string
-  default     = "RG-Demo-Satellite"
+  default     = "RG-Rafael"
   description = "Your Resource Group"
 }
 
@@ -62,6 +62,6 @@ variable "vsi_number" {
 
 variable "my_ssh_key_name" {
   type        = string
-  default     = "ssh-rafael-dal"
+  default     = "ssh-rafael"
   description = "Existing ssh key name"
 }
