@@ -1,6 +1,6 @@
-# Terraform Script for IBM Cloud Satellite demo 
+# Terraform Script
 
-Creating a VPC, VSI and ROCKS to use for satellite location demos.
+Script to create IBM Cloud resources using IBM Cloud Schematics/terraform.
 
 **ARCHITECTURE**
 
