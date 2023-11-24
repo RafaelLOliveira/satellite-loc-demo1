@@ -26,9 +26,6 @@ variable "rocks_name" {
   description = "Name of ROCKS Cluster"
 }
 
-
-
-
 variable "res_group" {
   type        = string
   default     = "RG-Rafael"

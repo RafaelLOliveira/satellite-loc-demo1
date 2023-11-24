@@ -11,7 +11,6 @@ resource "ibm_resource_instance" "cos" {
   resource_group_id = data.ibm_resource_group.rg.id
   //tags              = ["tag1", "tag2"]
 
-
   timeouts {
     create = "15m"
     update = "15m"
