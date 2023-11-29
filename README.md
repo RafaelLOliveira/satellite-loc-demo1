@@ -2,7 +2,7 @@
 
 Script to create IBM Cloud resources using IBM Cloud Schematics/terraform.
 
-**ARCHITECTURE**
+### ARCHITECTURE
 
 The diagram shows the target architecture for this cheat sheet. We will create:
 
@@ -14,11 +14,11 @@ The diagram shows the target architecture for this cheat sheet. We will create:
 - One floating IP for each vsi (to access the virtual server instance).
 - One Red Hat Open Shift Cluster with one Worker Zone per Zone.
 - One Cloud Object Storage.
+<img src="https://github.com/RafaelLOliveira/terraform-script/blob/main/figures/architecture.png" width="1000"/>
 
-![architecture_1](satellite-demo.png)
 
 
-**TUTORIAL**
+### TUTORIAL
 
 Step by step on how to use IBM Cloud Schematics
 
