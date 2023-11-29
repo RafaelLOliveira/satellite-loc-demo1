@@ -22,8 +22,8 @@ The diagram shows the target architecture for this cheat sheet. We will create:
 
 Step by step on how to use IBM Cloud Schematics
 
-1. Acess the IBM CLoud Schematics page on IBM Cloud Portal and create a workspace.
-2. Copy and paste the repo URL, click next.
+1. Access the IBM CLoud Schematics page on IBM Cloud Portal and create a workspace.
+2. Copy and paste the repo URL, then click next.
 <img src="https://github.com/RafaelLOliveira/terraform-script/blob/main/figures/creating-workspace.png" width="500"/>
 3. Put a workspace name, select a Resource Group and a location. Then, click in blue button "Create".
 <img src="https://github.com/RafaelLOliveira/terraform-script/blob/main/figures/creating-workspace-2.png" width="800"/>
